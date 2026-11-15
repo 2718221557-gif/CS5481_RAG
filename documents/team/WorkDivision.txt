@@ -1,0 +1,7 @@
+成员	角色/代码模块	必须写的代码	主要交付物	报告/展示任务
+M1	数据采集与清洗 + 端到端集成	文档加载器、清洗、去重、元数据抽取、documents.jsonl 生成脚本、run_pipeline.py 集成脚本	清洗后的文档数据、加载脚本、端到端 pipeline 脚本、集成测试	写 Data Preparation 小节；负责集成部分展示
+M2	Chunking 策略	实现至少两种 chunking：固定长度+重叠、按段落/标题切分；chunk 统计、CLI、单元测试	两套 chunks_A.jsonl / chunks_B.jsonl、chunk 统计脚本、对比实验原始数据	写 Chunking 方法与小节；展示 chunking 对比
+M3	Embedding 与向量库	embedding API/本地模型封装、批量与缓存、向量保存、建索引/加载索引脚本	embedding 文件、向量库构建脚本、索引持久化、索引构建说明	写 Embedding & Vector Store 小节；展示索引构建
+M4	检索模块	查询 embedding、top-k 语义检索、元数据过滤、延迟测试、检索 CLI/API	retrieve() 接口、检索测试、延迟 benchmark、检索结果样例	写 Retrieval 小节；展示检索流程与延迟
+M5	生成、引用与拒答	Prompt 构造、上下文拼接、LLM API 调用、引用解析与校验、拒答逻辑	generate_answer()、引用格式、拒答测试用例、生成 CLI	写 Generation & Citation 小节；展示引用和拒答案例
+M6	评估与 Demo	QA 集 schema/加载、检索命中率、答案正确性、引用准确率、拒答正确率、评估脚本、Streamlit/CLI Demo	20+ QA 集、评估脚本、结果表、错误分析、Demo	写 Evaluation 小节；负责 demo 展示和结果图表

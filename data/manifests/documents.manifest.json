@@ -1,0 +1,63 @@
+{
+  "schema_version": "documents.manifest.v1",
+  "created_at_utc": "2026-11-15T12:25:27Z",
+  "documents": {
+    "path": "data/documents/documents.jsonl",
+    "sha256": "4c622f978805f888767a8559d7c7cd693771567ad1d2c3fc2dd03cc3e7314edb",
+    "record_count": 3152
+  },
+  "raw": {
+    "path": "data/raw/guardian/articles.jsonl",
+    "sha256": "77f2f5a8beb621904979e8838e22fdcd7fea9a8f647211bcab2be95a48134921",
+    "record_count": 3152
+  },
+  "date_min": "2026-08-01",
+  "date_max": "2026-11-01",
+  "total_words": 2532406,
+  "sections": {
+    "world": 1505,
+    "business": 641,
+    "politics": 516,
+    "technology": 336,
+    "science": 154
+  },
+  "crawl_runs": [
+    {
+      "run_id": "17cde0f065f54539b8366c1202cf6b27",
+      "started_at_utc": "2026-11-15T04:37:18Z",
+      "finished_at_utc": "2026-11-15T04:38:42Z",
+      "status": "completed",
+      "start_date": "2026-09-01",
+      "end_date": "2026-10-31",
+      "sections": "world|politics|business|technology|science",
+      "query": "",
+      "api_queries": 70,
+      "article_count": 2191,
+      "inserted_count": 2191,
+      "updated_count": 0,
+      "skipped_count": 201,
+      "error": null
+    },
+    {
+      "run_id": "8fc8c3c27cd84e3e95b1a2612eb94627",
+      "started_at_utc": "2026-11-15T10:30:44Z",
+      "finished_at_utc": "2026-11-15T10:32:45Z",
+      "status": "completed",
+      "start_date": "2026-08-01",
+      "end_date": "2026-10-31",
+      "sections": "world|politics|business|technology|science",
+      "query": "",
+      "api_queries": 101,
+      "article_count": 3151,
+      "inserted_count": 961,
+      "updated_count": 2190,
+      "skipped_count": 285,
+      "error": null
+    }
+  ],
+  "source": {
+    "name": "The Guardian",
+    "domain": "theguardian.com",
+    "trust_tier": "established-major-outlet"
+  }
+}

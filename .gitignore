@@ -1,0 +1,56 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+*.tmp
+
+# Local databases and runtime state
+data/state/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+
+# Generated news data; share large files through team storage
+data/raw/
+data/documents/*.jsonl
+
+# Optional vector and embedding artifacts
+data/embeddings/
+data/vector_store/
