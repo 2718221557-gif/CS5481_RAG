@@ -56,3 +56,7 @@ M4 可从 manifest 中读取集合名称，使用 `load_collection(name)` 加载
 模型 revision：`1110a243fdf4706b3f48f1d95db1a4f5529b4d41`。每套 manifest 的 chunk 数与 Chroma 实际记录数一致，且抽查记录保留了原文 URL。
 
 索引与缓存文件位于 `data/vector_store/`，大型二进制文件通过 [M3 Release](https://github.com/2718221557-gif/CS5481_RAG/releases/tag/v0.3.0-m3) 分发，三份索引 manifest 保存在 Git 中。组员可按 [交付说明](../../documents/m3/DELIVERY.md) 下载并解压现有向量库，也可安装依赖后运行上面的命令重建。CPU 环境下完整构建耗时较长；M3 不会改写 M2 源文件。
+
+## M4 对接
+
+负责检索的同学请阅读 [M3 → M4 对接文档](../../documents/m3/M4_HANDOFF.md)，其中包括实际字段映射、模型版本约束、Chroma 查询返回格式、metadata 过滤和运行示例。

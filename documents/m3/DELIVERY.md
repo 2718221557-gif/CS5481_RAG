@@ -30,6 +30,8 @@ python -m pip install -r requirements.txt
 
 压缩包内路径以 `data/` 开头。解压会写入相同路径；已有其他数据版本时请先备份或使用新克隆目录。GitHub 的 “Download ZIP” 和 `git clone` 只下载代码，不包含 Release 数据包。数据包不含 M1 爬虫运行状态、操作系统临时文件、Python 环境或模型权重；重新采集和查询编码需要各自的配置及模型。
 
+M4 接入的详细字段、API 和运行示例见 [M3 → M4 对接文档](M4_HANDOFF.md)。
+
 ## 已保存的向量
 
 | 策略 | Chroma collection | 记录数 | 维度 |
