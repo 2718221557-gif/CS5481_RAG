@@ -1,6 +1,6 @@
 # M3 交付与使用
 
-本次提交来自 `CS5481_RAG-stage3`，包括 M3 embedding、SQLite 向量缓存、Chroma 持久化索引、M4 查询编码/集合加载接口、三份索引 manifest，以及 M3 个人报告。远程仓库原来的 `scripts/m2_chunking` 是空占位文件，本次同时补入本地已有的 M2 实现，作为 M3 的上游依赖。
+本次提交来自 `CS5481_RAG-stage3`，包括 M3 embedding、SQLite 向量缓存、Chroma 持久化索引、M4 查询编码/集合加载接口、三份索引 manifest，以及 M3 个人报告。M2 作为上游依赖，沿用组员已提交并合入主仓库的实现；其 A/B/C chunks 校验值与本次 M3 建库输入一致。
 
 M3 报告：[English Word](M3_Report_EN.docx) · [中文说明](M3_Report_CN.md)。M2 是项目已有模块，不计作 M3 新实现。
 
