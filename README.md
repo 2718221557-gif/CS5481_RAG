@@ -1,7 +1,6 @@
 # CS5481 News RAG
 
-当前完成 M1 新闻数据采集。各阶段通过 `documents/interfaces/接口文档.md` 中的
-数据契约衔接。
+当前已完成 M1 新闻数据采集和 M2 Chunking，并提供 M3 embedding 与持久化向量库构建模块。各阶段通过 `documents/interfaces/接口文档.md` 中的数据契约衔接。
 
 ## 目录
 
@@ -13,6 +12,8 @@ data/manifests/         数据清单和校验信息
 data/state/             M1 状态数据库
 scripts/common/         共用工具
 scripts/m1_data_preparation/
+scripts/m2_chunking/
+scripts/m3_embedding/
 tests/
 ```
 
@@ -34,6 +35,7 @@ python -m scripts.m1_data_preparation.build_documents
 
 M1 使用说明见
 [`scripts/m1_data_preparation/README.md`](scripts/m1_data_preparation/README.md)。
+
 ## M2 文本切分
 
 M2 将 M1 的标准文档 `data/documents/documents.jsonl` 切分成适合向量化和检索的文本块。在仓库根目录运行以下命令，即可在 `data/chunks/` 下生成三种方案：
@@ -47,3 +49,11 @@ python -m scripts.m2_chunking.chunk_documents
 - `chunks_C.jsonl`：优先按句子组合，并在每块前附上文章标题。
 
 每套结果都有对应的 manifest，记录参数、数量和 SHA-256。M3 应使用每条记录的 `text` 生成 embedding，并保留引用和 metadata 字段。详细说明、统计和方法比较见 [M2 英文说明](scripts/m2_chunking/README.md) 与 [M2 中文说明](scripts/m2_chunking/README_zh.md)。
+
+M3 Embedding 与向量库使用说明见 [`scripts/m3_embedding/README_zh.md`](scripts/m3_embedding/README_zh.md)。
+
+## M3 完整交付
+
+M3 的实现、接口、索引 manifests 和个人报告已纳入版本控制。完整的 M1/M2 数据与 M3 向量库、缓存通过 [M3 Release](https://github.com/2718221557-gif/CS5481_RAG/releases/tag/v0.3.0-m3) 提供。下载、校验、解压和读取向量的方法见 [M3 交付说明](documents/m3/DELIVERY.md)。
+
+负责 M4 检索的同学请先看 [M3 → M4 对接文档](documents/m3/M4_HANDOFF.md)：含实际数据格式、函数接口、集合配置、查询示例和验证结果。
