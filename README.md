@@ -36,7 +36,20 @@ python -m scripts.m1_data_preparation.build_documents
 M1 使用说明见
 [`scripts/m1_data_preparation/README.md`](scripts/m1_data_preparation/README.md)。
 
-M2 Chunking 使用说明见 [`scripts/m2_chunking/README_zh.md`](scripts/m2_chunking/README_zh.md)。
+## M2 文本切分
+
+M2 将 M1 的标准文档 `data/documents/documents.jsonl` 切分成适合向量化和检索的文本块。在仓库根目录运行以下命令，即可在 `data/chunks/` 下生成三种方案：
+
+```bash
+python -m scripts.m2_chunking.chunk_documents
+```
+
+- `chunks_A.jsonl`：固定长度切分并带重叠（默认每块 1,200 字符，重叠 150 字符）。
+- `chunks_B.jsonl`：优先按段落组合，超长段落再按句子或字符切分。
+- `chunks_C.jsonl`：优先按句子组合，并在每块前附上文章标题。
+
+每套结果都有对应的 manifest，记录参数、数量和 SHA-256。M3 应使用每条记录的 `text` 生成 embedding，并保留引用和 metadata 字段。详细说明、统计和方法比较见 [M2 英文说明](scripts/m2_chunking/README.md) 与 [M2 中文说明](scripts/m2_chunking/README_zh.md)。
+
 M3 Embedding 与向量库使用说明见 [`scripts/m3_embedding/README_zh.md`](scripts/m3_embedding/README_zh.md)。
 
 ## M3 完整交付
