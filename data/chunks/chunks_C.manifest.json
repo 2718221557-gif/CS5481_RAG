@@ -1,0 +1,20 @@
+{
+  "schema_version": "chunks.manifest.v1",
+  "strategy": "sentence_title",
+  "created_at_utc": "2026-11-17T07:39:07.374154Z",
+  "input_path": "data/documents/documents.jsonl",
+  "input_sha256": "4c622f978805f888767a8559d7c7cd693771567ad1d2c3fc2dd03cc3e7314edb",
+  "output_path": "data/chunks/chunks_C.jsonl",
+  "output_sha256": "e9f8efe647d4fcdc5bc488890fd393670cfaf45d61fb64beac58880a1b808916",
+  "document_count": 3152,
+  "chunk_count": 16432,
+  "parameters": {
+    "chunk_chars": 1200
+  },
+  "word_count": {
+    "total": 2743156,
+    "min": 14,
+    "max": 248,
+    "mean": 166.94
+  }
+}

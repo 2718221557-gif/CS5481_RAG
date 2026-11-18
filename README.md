@@ -1,7 +1,6 @@
 # CS5481 News RAG
 
-当前完成 M1 新闻数据采集。各阶段通过 `documents/interfaces/接口文档.md` 中的
-数据契约衔接。
+当前已完成 M1 新闻数据采集和 M2 Chunking，并提供 M3 embedding 与持久化向量库构建模块。各阶段通过 `documents/interfaces/接口文档.md` 中的数据契约衔接。
 
 ## 目录
 
@@ -13,6 +12,8 @@ data/manifests/         数据清单和校验信息
 data/state/             M1 状态数据库
 scripts/common/         共用工具
 scripts/m1_data_preparation/
+scripts/m2_chunking/
+scripts/m3_embedding/
 tests/
 ```
 
@@ -34,3 +35,10 @@ python -m scripts.m1_data_preparation.build_documents
 
 M1 使用说明见
 [`scripts/m1_data_preparation/README.md`](scripts/m1_data_preparation/README.md)。
+
+M2 Chunking 使用说明见 [`scripts/m2_chunking/README_zh.md`](scripts/m2_chunking/README_zh.md)。
+M3 Embedding 与向量库使用说明见 [`scripts/m3_embedding/README_zh.md`](scripts/m3_embedding/README_zh.md)。
+
+## M3 完整交付
+
+M3 的实现、接口、索引 manifests 和个人报告已纳入版本控制。完整的 M1/M2 数据与 M3 向量库、缓存通过 [M3 Release](https://github.com/2718221557-gif/CS5481_RAG/releases/tag/v0.3.0-m3) 提供。下载、校验、解压和读取向量的方法见 [M3 交付说明](documents/m3/DELIVERY.md)。
