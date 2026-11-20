@@ -1,0 +1,61 @@
+{
+  "status": "COMPLETE",
+  "created_at_utc": "2026-11-20T08:04:15.299416+00:00",
+  "split": "test",
+  "mode": "bm25_and_hybrid",
+  "strategies": [
+    "A",
+    "B",
+    "C"
+  ],
+  "top_k": 5,
+  "candidate_k": 30,
+  "token_budget": 1024,
+  "budget_tokenizer": "retriever embedding tokenizer; M5 proxy only",
+  "question_count": 24,
+  "qa_sha256": "555c839e2225f7ed6ca93c751434cd7ad0c0b8cb2055cb413da7911aeaa213e3",
+  "schema_sha256": "280ce563006f65b155b0de69f6e0a066b7c1bc40b4fff2ffe03a4c245eb6b32c",
+  "index_hashes": {
+    "A": "4e1614c8965a300b577b8c9736215e4c7cb3ddfccf3e7943282de8e6f20717a5",
+    "B": "e60919f16bb510087c3fdcab0454733318086c4b908d97ecdd64845cd0eff526",
+    "C": "c5f99cd5d7218722f5ed8e2c85cdc6bb4a7ad09ed1896ec7a831bdb4fef51034"
+  },
+  "embedding": {
+    "A": {
+      "backend": "sentence-transformers",
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "dimension": 384,
+      "normalization": "L2"
+    },
+    "B": {
+      "backend": "sentence-transformers",
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "dimension": 384,
+      "normalization": "L2"
+    },
+    "C": {
+      "backend": "sentence-transformers",
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "dimension": 384,
+      "normalization": "L2"
+    }
+  },
+  "workshop_source_sha256": "26cd458cd67fb66d72394ba16c42cd37903aa4bbb3f8ee2abb5ee685add77687",
+  "packages": {
+    "chromadb": "1.5.9",
+    "sentence-transformers": "5.7.0",
+    "numpy": "2.4.6"
+  },
+  "protocol": "Supplementary fixed comparison; no parameter tuning",
+  "limitations": [
+    "Answerable science questions only; no refusal evaluation",
+    "Questions from the same article are correlated",
+    "Recall measures annotated evidence units, not all relevant chunks"
+  ],
+  "baseline_folder": "D:\\CS5481_work\\m4_workshop_results\\dense_fixed_20261120_075738_836725",
+  "rrf_constant": 60,
+  "bm25": "positive log1p IDF; k1=1.5; b=0.75"
+}

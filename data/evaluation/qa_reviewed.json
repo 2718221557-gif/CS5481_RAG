@@ -1,0 +1,970 @@
+[
+  {
+    "question_id": "dev_001",
+    "split": "dev",
+    "question": "At least how many Australians were reported missing in Nepal after the flash flood on the Nepal-Tibet border?",
+    "answerable": true,
+    "reference_answer": "At least 35 Australians.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods",
+        "quote": "The Australian government is urgently seeking information on the welfare of at least 35 Australians missing in Nepal, after a catastrophic flash flood swept through the Nepal-Tibet border region.",
+        "chunk_ids": {
+          "A": [
+            "92e13d7ed8508d0694a680e54efdbdb2f650e5f5b464fdcd62e5f438b0a6a681"
+          ],
+          "B": [
+            "bc539165d46fb6403d8766de54aefbf57a1bf215ee8e7866c4306629f0a4e4ea"
+          ],
+          "C": [
+            "004e4a658f47a40ba0ce06c141c7d399601ed309bf1eabdb4f2f9bb85dd0803e"
+          ]
+        }
+      }
+    ],
+    "reviewer": "XING Jingyu",
+    "reviewed": true,
+    "no_answer_reason": "",
+    "question_type": "single_fact",
+    "required_facts": [
+      "The reported figure was at least 35."
+    ],
+    "event_group": "nepal_tibet_floods_2026_08"
+  },
+  {
+    "question_id": "dev_002",
+    "split": "dev",
+    "question": "Who did Penny Wong say the Australian government needed to contact before she would confirm details about the Australians missing in Nepal?",
+    "answerable": true,
+    "reference_answer": "The missing Australians’ next of kin.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods",
+        "quote": "Wong said she would not confirm details of the missing Australians until the government had engaged with their next of kin",
+        "chunk_ids": {
+          "A": [
+            "e253a07c7e17af03e0d8e56318f4b488cc2ec74dda9421fa30168a957fca98a6"
+          ],
+          "B": [
+            "86a81e22bbe562055b1c33929ef78b82377767521a32364e24208b1e02d1a22f"
+          ],
+          "C": [
+            "394a86666d945866a9f4b60c08e426e57ced932ecbbe57fccac6e473965ed7bf"
+          ]
+        }
+      }
+    ],
+    "reviewer": "XING Jingyu",
+    "reviewed": true,
+    "no_answer_reason": "",
+    "question_type": "paraphrase",
+    "required_facts": [
+      "Wong would not confirm details until the government had engaged with the missing Australians’ next of kin."
+    ],
+    "event_group": "nepal_tibet_floods_2026_08"
+  },
+  {
+    "question_id": "dev_003",
+    "split": "dev",
+    "question": "After the Nepal-Tibet flash flood, what assistance did Nepal plan to seek from Australia, and who would receive the information Nepal’s tourism industry was gathering about people in the affected area?",
+    "answerable": true,
+    "reference_answer": "Nepal planned to seek financial assistance and technical support for the search for missing people. Once the information and all the details were available, they would be shared with the Australian government and the embassy in Kathmandu.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods",
+        "quote": "Paneru said the government would be seeking financial assistance, but also technical support as it searches for missing people.",
+        "chunk_ids": {
+          "A": [
+            "e253a07c7e17af03e0d8e56318f4b488cc2ec74dda9421fa30168a957fca98a6"
+          ],
+          "B": [
+            "86a81e22bbe562055b1c33929ef78b82377767521a32364e24208b1e02d1a22f"
+          ],
+          "C": [
+            "394a86666d945866a9f4b60c08e426e57ced932ecbbe57fccac6e473965ed7bf"
+          ]
+        }
+      },
+      {
+        "evidence_id": "e2",
+        "document_id": "australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods",
+        "quote": "“The tourism industry in Nepal is working to collect information about anyone who was in the affected area,” he said.",
+        "chunk_ids": {
+          "A": [
+            "cd4fbd9005f933bcfa55e2f1ce60a1adc65ca7343bf7096d7141f8c3f0c08377",
+            "e253a07c7e17af03e0d8e56318f4b488cc2ec74dda9421fa30168a957fca98a6"
+          ],
+          "B": [
+            "86a81e22bbe562055b1c33929ef78b82377767521a32364e24208b1e02d1a22f"
+          ],
+          "C": [
+            "394a86666d945866a9f4b60c08e426e57ced932ecbbe57fccac6e473965ed7bf"
+          ]
+        }
+      },
+      {
+        "evidence_id": "e3",
+        "document_id": "australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods",
+        "quote": "“Once we have that data and all the details have been received, we will communicate all of this to the Australian government and the embassy in Kathmandu.”",
+        "chunk_ids": {
+          "A": [
+            "cd4fbd9005f933bcfa55e2f1ce60a1adc65ca7343bf7096d7141f8c3f0c08377"
+          ],
+          "B": [
+            "86a81e22bbe562055b1c33929ef78b82377767521a32364e24208b1e02d1a22f"
+          ],
+          "C": [
+            "e26a72464dd9824450de42309040748d6808a585710b15fd617886184587caec"
+          ]
+        }
+      }
+    ],
+    "reviewer": "XING Jingyu",
+    "reviewed": true,
+    "no_answer_reason": "",
+    "question_type": "multi_fact",
+    "required_facts": [
+      "Nepal planned to seek financial assistance.",
+      "Nepal also planned to seek technical support for the search for missing people.",
+      "Once the details were complete, both the Australian government and the embassy in Kathmandu would receive the information."
+    ],
+    "event_group": "nepal_tibet_floods_2026_08"
+  },
+  {
+    "question_id": "test_001",
+    "split": "test",
+    "question": "Who created the fin-tastic fish puzzles for the opening of the 1729 Maths School?",
+    "answerable": true,
+    "reference_answer": "Maths educator George Watkins.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/aug/31/did-you-solve-it-the-fin-tastic-fish-puzzle",
+        "quote": "Today’s puzzles were created by maths educator George Watkins to celebrate the opening of the 1729 Maths School",
+        "chunk_ids": {
+          "A": [
+            "d92e802fe0c7f90f1a7d20c8ed2e6dbee014656e4bf5c26580a1c2c2f01f9740"
+          ],
+          "B": [
+            "162a1615f56b4bf954c76f98b63cf5bc4c1267743423d816f99bb900312a39f6"
+          ],
+          "C": [
+            "33ca0baf4d4f5ceeeac7f250079065d3cfd78fea098797c0076104fb2c7f928d"
+          ]
+        }
+      }
+    ],
+    "question_type": "single_fact",
+    "required_facts": [
+      "George Watkins created the puzzles."
+    ],
+    "event_group": "did-you-solve-it-the-fin-tastic-fish-puzzle",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_002",
+    "split": "test",
+    "question": "Given front and side views of a fish’s swim in the fin-tastic fish puzzle, what were solvers supposed to sketch?",
+    "answerable": true,
+    "reference_answer": "The view from above of the shortest path consistent with both views.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/aug/31/did-you-solve-it-the-fin-tastic-fish-puzzle",
+        "quote": "I gave two examples of a front and side view, and asked you to draw the top view of the shortest path that results in those views.",
+        "chunk_ids": {
+          "A": [
+            "38e815fef9249a0d732f10e66daa87ca433890216ebd925de9078816f47066d4"
+          ],
+          "B": [
+            "8e87e2fcc45efd51dce5f4c88806496ddf09f4c5fb28eeb380339a80b634f45c"
+          ],
+          "C": [
+            "0308c3fc7f5b9ff36c16275119ae96c0d36ccd3f5e2605209e6a2bb48d6a1405"
+          ]
+        }
+      }
+    ],
+    "question_type": "paraphrase",
+    "required_facts": [
+      "The sketch had to show the shortest compatible path as seen from above."
+    ],
+    "event_group": "did-you-solve-it-the-fin-tastic-fish-puzzle",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_003",
+    "split": "test",
+    "question": "In the fin-tastic fish puzzle, how tall was the tank, and what were the dimensions of its base?",
+    "answerable": true,
+    "reference_answer": "It was two metres tall, with a base one metre across and one metre deep.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/aug/31/did-you-solve-it-the-fin-tastic-fish-puzzle",
+        "quote": "A fish is swimming in a tank that is two metres high, one metre across and one metre deep.",
+        "chunk_ids": {
+          "A": [
+            "38e815fef9249a0d732f10e66daa87ca433890216ebd925de9078816f47066d4"
+          ],
+          "B": [
+            "8e87e2fcc45efd51dce5f4c88806496ddf09f4c5fb28eeb380339a80b634f45c"
+          ],
+          "C": [
+            "0308c3fc7f5b9ff36c16275119ae96c0d36ccd3f5e2605209e6a2bb48d6a1405"
+          ]
+        }
+      }
+    ],
+    "question_type": "multi_fact",
+    "required_facts": [
+      "Height: two metres.",
+      "Base: one metre across by one metre deep."
+    ],
+    "event_group": "did-you-solve-it-the-fin-tastic-fish-puzzle",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_004",
+    "split": "test",
+    "question": "Which newly discovered celestial body prompted the International Astronomical Union’s 2006 vote on Pluto’s status?",
+    "answerable": true,
+    "reference_answer": "Eris.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake",
+        "quote": "The event that sparked the IAU’s 2006 vote was the discovery of a distant celestial body that would come to be called Eris.",
+        "chunk_ids": {
+          "A": [
+            "a78cc8ba09c6ee84fa5c7cbf717b77ceedf60b0e391cf37d791e495bb683fc19",
+            "fb790a0ddd5b8b98d2dfd2bdc9a89cb52aad94d990bb406d1b2403b802cd23fd"
+          ],
+          "B": [
+            "2ee44203404ea839c229007b5374238d1bcd8a50f02ec797ade5330b823ddc42"
+          ],
+          "C": [
+            "951ab6dba6e88adeddb4ba162b847682387a1a88e4d5a28c4da41aa7e7935eeb"
+          ]
+        }
+      }
+    ],
+    "question_type": "single_fact",
+    "required_facts": [
+      "The discovery of Eris prompted the vote."
+    ],
+    "event_group": "forbidden-planet-was-plutos-2006-demotion-a-big-mistake",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_005",
+    "split": "test",
+    "question": "In the planet definition used to reclassify Pluto, what does it mean for a body to have cleared its neighbourhood?",
+    "answerable": true,
+    "reference_answer": "Its gravity must dominate the region where it orbits.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake",
+        "quote": "it must have “cleared its neighbourhood” – meaning it must gravitationally dominate the area in which it orbits.",
+        "chunk_ids": {
+          "A": [
+            "a78cc8ba09c6ee84fa5c7cbf717b77ceedf60b0e391cf37d791e495bb683fc19"
+          ],
+          "B": [
+            "2ee44203404ea839c229007b5374238d1bcd8a50f02ec797ade5330b823ddc42"
+          ],
+          "C": [
+            "d106587b39f125c72d3088595f8ce11de76bf016fbe4df851c27cf6e5f8d663e"
+          ]
+        }
+      }
+    ],
+    "question_type": "paraphrase",
+    "required_facts": [
+      "The criterion is gravitational dominance in the body's orbital region."
+    ],
+    "event_group": "forbidden-planet-was-plutos-2006-demotion-a-big-mistake",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_006",
+    "split": "test",
+    "question": "What classification did Pluto receive in August 2006, and how did that decision change the solar system’s planet count?",
+    "answerable": true,
+    "reference_answer": "Pluto became a dwarf planet, and the count fell from nine to eight.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake",
+        "quote": "After a vote by the International Astronomical Union (IAU) in August 2006, Pluto was relegated from major planet to dwarf planet status.",
+        "chunk_ids": {
+          "A": [
+            "c8be5d51e61821d87b7ff28d167ed3a41753819343fc523f8082743a8d4dfce5"
+          ],
+          "B": [
+            "7c834a949ce39f6e437326f74bfe8e7f7faf5c48e7709c47b93a0172bc8a2c63"
+          ],
+          "C": [
+            "ee1553f14034313ff3cc9a7dec6449fa3d7853054835f36747ea656e6a0e5846"
+          ]
+        }
+      },
+      {
+        "evidence_id": "e2",
+        "document_id": "science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake",
+        "quote": "Our solar system dropped from nine planets to eight.",
+        "chunk_ids": {
+          "A": [
+            "c8be5d51e61821d87b7ff28d167ed3a41753819343fc523f8082743a8d4dfce5"
+          ],
+          "B": [
+            "7c834a949ce39f6e437326f74bfe8e7f7faf5c48e7709c47b93a0172bc8a2c63"
+          ],
+          "C": [
+            "ee1553f14034313ff3cc9a7dec6449fa3d7853054835f36747ea656e6a0e5846"
+          ]
+        }
+      }
+    ],
+    "question_type": "multi_fact",
+    "required_facts": [
+      "Pluto was classified as a dwarf planet.",
+      "The planet count decreased from nine to eight."
+    ],
+    "event_group": "forbidden-planet-was-plutos-2006-demotion-a-big-mistake",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_007",
+    "split": "test",
+    "question": "Which pharmaceutical company manufactures the retatrutide being studied in clinical trials?",
+    "answerable": true,
+    "reference_answer": "Eli Lilly.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/aug/31/retatrutide-weight-loss-drug-gray-market",
+        "quote": "retatrutide, which is manufactured by the pharmaceutical company Eli Lilly and is being studied in clinical trials.",
+        "chunk_ids": {
+          "A": [
+            "cd188cdd37267e88178424ed73f0a7ae9a7efadf9efc5b469e0f842b9aa9776d",
+            "ef3605ffeb55d2ad458ad490f57b672db3fc15220ab287ff72c470134b2b221a"
+          ],
+          "B": [
+            "2c222e2cc6072a243443db102fc18f245be232d7475a663da1dd9304130c27a2"
+          ],
+          "C": [
+            "cb313f2304aa1baae05ba53404c6a99c55a1fc3001b0e3069ac55a91d99959ec"
+          ]
+        }
+      }
+    ],
+    "question_type": "single_fact",
+    "required_facts": [
+      "The manufacturer is Eli Lilly."
+    ],
+    "event_group": "retatrutide-weight-loss-drug-gray-market",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_008",
+    "split": "test",
+    "question": "What did Dr David Shafer advise patients to tell their healthcare provider about retatrutide obtained without a prescription?",
+    "answerable": true,
+    "reference_answer": "Tell the provider that they are taking retatrutide.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/aug/31/retatrutide-weight-loss-drug-gray-market",
+        "quote": "Shafer, the plastic surgeon, said that even if people are not obtaining retatrutide from a prescription, they should disclose their use of it to their provider.",
+        "chunk_ids": {
+          "A": [
+            "7175fa8b8045f371d7d45c709a3b7ddbd9d694185c50ca2924f887aa7a5824a8"
+          ],
+          "B": [
+            "8752451642bfa084833a9ba8d4619b865c24948ae29185bf56d3437d1f59d736"
+          ],
+          "C": [
+            "bc103508f0f32d56fbd33e490ab4cb4d40753bd80f85cc9fcc48adcde16585c8"
+          ]
+        }
+      }
+    ],
+    "question_type": "paraphrase",
+    "required_facts": [
+      "Shafer advised disclosing use even when the drug was obtained without a prescription."
+    ],
+    "event_group": "retatrutide-weight-loss-drug-gray-market",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_009",
+    "split": "test",
+    "question": "What two things did Dr Caroline Messer say buyers cannot know about the contents of gray-market retatrutide?",
+    "answerable": true,
+    "reference_answer": "They do not know how much retatrutide the product contains or how pure it is.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/aug/31/retatrutide-weight-loss-drug-gray-market",
+        "quote": "Messer argues that obtaining the drug through the gray market is potentially dangerous because patients do not know how much of the drug the product contains or its purity.",
+        "chunk_ids": {
+          "A": [
+            "167144ab27390d84ebec73f437f115ef42dfe927c8a75ff3cb6936dd3ecf1e4b"
+          ],
+          "B": [
+            "97595b5dad6877590f80eadaddfb112876f795f961ae185ff5c84ae15ae56efd"
+          ],
+          "C": [
+            "75c31444e08b1f1ca5b445b00f7ba11fdfe51c8456c6d16fc99a6f0b7a0df72c"
+          ]
+        }
+      }
+    ],
+    "question_type": "multi_fact",
+    "required_facts": [
+      "The amount of the drug is unknown.",
+      "Its purity is unknown."
+    ],
+    "event_group": "retatrutide-weight-loss-drug-gray-market",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_010",
+    "split": "test",
+    "question": "Between which two stars can an observer look for the constellation Sagitta?",
+    "answerable": true,
+    "reference_answer": "Vega and Altair.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/aug/31/starwatch-sagittas-arrow-shape-makes-it-easy-to-see-against-a-dark-sky",
+        "quote": "Sagitta can be found about partway along the imaginary line connecting Vega and Altair",
+        "chunk_ids": {
+          "A": [
+            "81c6e748593ceee2918fb578000aff95522fe9e731cf3c4f68a085fb98ae6314"
+          ],
+          "B": [
+            "2c3e9debf95b9243b092a75afefcd4c4e5a4498d8444d3b40e04bfac64b3cc63"
+          ],
+          "C": [
+            "54d010d2cf897a83751039417ea40c6dd3c7f24a0e0e10e8ab23511440eb8d71"
+          ]
+        }
+      }
+    ],
+    "question_type": "single_fact",
+    "required_facts": [
+      "Sagitta lies roughly partway along the line from Vega to Altair."
+    ],
+    "event_group": "starwatch-sagittas-arrow-shape-makes-it-easy-to-see-against-a-dark-sky",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_011",
+    "split": "test",
+    "question": "Why can a stargazer pick out Sagitta under a dark sky even though its stars are faint?",
+    "answerable": true,
+    "reference_answer": "Its stars form a recognisable arrow.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/aug/31/starwatch-sagittas-arrow-shape-makes-it-easy-to-see-against-a-dark-sky",
+        "quote": "Although it consists of just a handful of faint stars, Sagitta’s distinctive shape (it really does look like an arrow) makes it easy to identify against a dark sky.",
+        "chunk_ids": {
+          "A": [
+            "81c6e748593ceee2918fb578000aff95522fe9e731cf3c4f68a085fb98ae6314"
+          ],
+          "B": [
+            "2c3e9debf95b9243b092a75afefcd4c4e5a4498d8444d3b40e04bfac64b3cc63"
+          ],
+          "C": [
+            "54d010d2cf897a83751039417ea40c6dd3c7f24a0e0e10e8ab23511440eb8d71"
+          ]
+        }
+      }
+    ],
+    "question_type": "paraphrase",
+    "required_facts": [
+      "Sagitta’s arrow shape makes it easy to identify."
+    ],
+    "event_group": "starwatch-sagittas-arrow-shape-makes-it-easy-to-see-against-a-dark-sky",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_012",
+    "split": "test",
+    "question": "Which two arrows from Greek mythology are suggested as possible identities for Sagitta?",
+    "answerable": true,
+    "reference_answer": "It could be the arrow Hercules fired at the eagle tormenting Prometheus, or one of Cupid’s arrows.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/aug/31/starwatch-sagittas-arrow-shape-makes-it-easy-to-see-against-a-dark-sky",
+        "quote": "It could be the one fired by Hercules to kill the eagle tormenting Prometheus, or it could be one of Cupid’s famous arrows.",
+        "chunk_ids": {
+          "A": [
+            "81c6e748593ceee2918fb578000aff95522fe9e731cf3c4f68a085fb98ae6314"
+          ],
+          "B": [
+            "2c3e9debf95b9243b092a75afefcd4c4e5a4498d8444d3b40e04bfac64b3cc63"
+          ],
+          "C": [
+            "54d010d2cf897a83751039417ea40c6dd3c7f24a0e0e10e8ab23511440eb8d71"
+          ]
+        }
+      }
+    ],
+    "question_type": "multi_fact",
+    "required_facts": [
+      "One possibility is Hercules’ arrow used to kill the eagle tormenting Prometheus.",
+      "Another possibility is one of Cupid’s arrows."
+    ],
+    "event_group": "starwatch-sagittas-arrow-shape-makes-it-easy-to-see-against-a-dark-sky",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_013",
+    "split": "test",
+    "question": "Which archaeologist led the volunteers excavating the medieval cathedral site on Lismore?",
+    "answerable": true,
+    "reference_answer": "Dr Clare Ellis of Argyll Archaeology.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/oct/01/lismore-archaeological-finds-scottish-island-monastery-spread-of-christianity",
+        "quote": "they commissioned a professional archaeologist, Dr Clare Ellis of Argyll Archaeology, to lead a group of islanders and other volunteers in an excavation on the site of a much later medieval cathedral.",
+        "chunk_ids": {
+          "A": [
+            "60b4cc80fedc7adc472942faf6857df45ed7b3fbf3987d1e1ed6fabdc7a096a3"
+          ],
+          "B": [
+            "0d7b94c592f656e8a155ebcd0b41d97d18bf93ad6453bf8946e5febad21d1033"
+          ],
+          "C": [
+            "abdae3a136118b40b741cdd5a0fce1d53a3585d65e70428ae973bfb00e4ea59b"
+          ]
+        }
+      }
+    ],
+    "question_type": "single_fact",
+    "required_facts": [
+      "Dr Clare Ellis led the excavation."
+    ],
+    "event_group": "lismore-archaeological-finds-scottish-island-monastery-spread-of-christianity",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_014",
+    "split": "test",
+    "question": "How did the discoveries on Lismore change experts’ understanding of the monastery’s place in the wider world?",
+    "answerable": true,
+    "reference_answer": "Experts saw it as an internationally important monastery rather than a minor local church.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/oct/01/lismore-archaeological-finds-scottish-island-monastery-spread-of-christianity",
+        "quote": "The finds have shown that rather than being a small island church in an overlooked backwater, the monastery of Lios Mór, founded by Saint Mo Luóc or Moluag, was a high-ranking site of international importance, experts say.",
+        "chunk_ids": {
+          "A": [
+            "508905c487177d6fbc949865f2ccf3dbe2a11d51ee898458cc1ac1316a8c6945"
+          ],
+          "B": [
+            "6f2d4725bff229a4d918cec8c0901fbb0da16beda0376d9b7a93fe1033a2c419"
+          ],
+          "C": [
+            "8f7ed3c4716e02464c11be6e67f67fe452102002cd56f99ccf29be216c2aca48"
+          ]
+        }
+      }
+    ],
+    "question_type": "paraphrase",
+    "required_facts": [
+      "The finds indicated that the monastery was a high-ranking site of international importance."
+    ],
+    "event_group": "lismore-archaeological-finds-scottish-island-monastery-spread-of-christianity",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_015",
+    "split": "test",
+    "question": "What craft did post-excavation analysis reveal on Lismore, and in which century was it practised?",
+    "answerable": true,
+    "reference_answer": "Jewellery making in the seventh century.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/oct/01/lismore-archaeological-finds-scottish-island-monastery-spread-of-christianity",
+        "quote": "they were making jewellery on our little island in the seventh century.",
+        "chunk_ids": {
+          "A": [
+            "eef56cdc080af017213a22d60bf6e6cf45411201248d551ff9211932324a5f42"
+          ],
+          "B": [
+            "292303dcd76d243ea1d4d1e01943a7c26b5b1811736cf6f676159ab9d39e559a"
+          ],
+          "C": [
+            "907177ca3a54c9f614eca5727e2032d2f193daf9c2e4c0c295fe0de448e6b3ae"
+          ]
+        }
+      }
+    ],
+    "question_type": "multi_fact",
+    "required_facts": [
+      "The craft was jewellery making.",
+      "The craft was practised in the seventh century."
+    ],
+    "event_group": "lismore-archaeological-finds-scottish-island-monastery-spread-of-christianity",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_016",
+    "split": "test",
+    "question": "In what year did Paul D MacLean introduce the triune brain model?",
+    "answerable": true,
+    "reference_answer": "1959.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/oct/04/lizard-brain-rational-mind-neuroscience",
+        "quote": "In 1959 Paul D MacLean set out a new way of thinking about the evolution and function of the brain, which he christened the “triune” – three-in-one – model.",
+        "chunk_ids": {
+          "A": [
+            "9a7cf37b56ecf6217828a68366d4d563f3af45b42e572c0339d20b74e8b0c6b3"
+          ],
+          "B": [
+            "e172e5e2ba7e81d173545002aa184ddd5525b41b719a0b2f9aaecc5ff53b78bd"
+          ],
+          "C": [
+            "9bb3f936e1a6e43c6618294ef45954db9696e222c6304002cbab166d2afafd7b"
+          ]
+        }
+      }
+    ],
+    "question_type": "single_fact",
+    "required_facts": [
+      "MacLean set out the model in 1959."
+    ],
+    "event_group": "lizard-brain-rational-mind-neuroscience",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_017",
+    "split": "test",
+    "question": "In Lisa Feldman Barrett’s account, what does the brain do to keep us alive instead of pitting instinct against reason?",
+    "answerable": true,
+    "reference_answer": "It works as an integrated system that anticipates and budgets the body’s energy needs.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/oct/04/lizard-brain-rational-mind-neuroscience",
+        "quote": "In her view, rather than operating as a battleground between ancient instinct, raw emotion and sophisticated logic, the brain is a dynamic, integrated system, whose aim is to keep us alive by predicting and budgeting our energy requirements.",
+        "chunk_ids": {
+          "A": [
+            "2ffc7b5b9e7009ab28c589b6ad7cefea04b8db96066d1fc030027d693746a7be"
+          ],
+          "B": [
+            "391b3ea1ce076cf712663e28bfa5235935e4df455e8743488d102d4fdfc0c36c"
+          ],
+          "C": [
+            "52a5970e9fca9b0a201156e3ea326831f8f60d7438c759df986a3122b003fcbb"
+          ]
+        }
+      }
+    ],
+    "question_type": "paraphrase",
+    "required_facts": [
+      "Barrett describes an integrated brain that predicts and budgets energy requirements."
+    ],
+    "event_group": "lizard-brain-rational-mind-neuroscience",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_018",
+    "split": "test",
+    "question": "What findings about reptiles and mammals undermine the anatomical divisions in MacLean’s triune brain model?",
+    "answerable": true,
+    "reference_answer": "Many reptiles have the supposedly mammalian limbic system, and all mammals show features once thought unique to so-called higher mammals.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/oct/04/lizard-brain-rational-mind-neuroscience",
+        "quote": "many reptiles do actually possess the “mammalian” limbic system, while all mammals exhibit “neomammalian” features previously thought to be unique to “higher” ones like us.",
+        "chunk_ids": {
+          "A": [
+            "787027e6c069a904ae7419f41519006ce3e39dee8c09613f44d593454b6f439d"
+          ],
+          "B": [
+            "ea1f25f241ad53edb5151d6969880c3ab6163b2b7c38c3608e6db9a14d48cb20"
+          ],
+          "C": [
+            "a149cba6a6c5132a2bac18626f27f5130c9d043e30a9104cf2d61d7c65c9ffdd"
+          ]
+        }
+      }
+    ],
+    "question_type": "multi_fact",
+    "required_facts": [
+      "Many reptiles possess the limbic system.",
+      "All mammals exhibit some features labelled neomammalian and previously thought exclusive to higher mammals."
+    ],
+    "event_group": "lizard-brain-rational-mind-neuroscience",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_019",
+    "split": "test",
+    "question": "Which star pattern lay above Saturn in the 5 October view from London?",
+    "answerable": true,
+    "reference_answer": "The Great Square of Pegasus.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/oct/05/how-to-spot-saturn-closest-approach-earth",
+        "quote": "It lies beneath the Great Square of Pegasus, which provides a distinctive signpost to the planet.",
+        "chunk_ids": {
+          "A": [
+            "37024eeeb4085bba435112e9000da0c404306c874839926a3b18b644ad49fbbb"
+          ],
+          "B": [
+            "b7c811102d6aed2f034eec4fcd691da2cd69d1fc19ed5c3ab1e1b69dd10d358a"
+          ],
+          "C": [
+            "21a3963560b302a78399f5f9e3f9f2d5b0b0fb8b54ec8b9b05d82a4888be3241"
+          ]
+        }
+      }
+    ],
+    "question_type": "single_fact",
+    "required_facts": [
+      "Saturn lay beneath the Great Square of Pegasus."
+    ],
+    "event_group": "how-to-spot-saturn-closest-approach-earth",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_020",
+    "split": "test",
+    "question": "How could an observer distinguish Saturn’s light from that of most stars without a telescope?",
+    "answerable": true,
+    "reference_answer": "Saturn shines steadily rather than noticeably twinkling.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/oct/05/how-to-spot-saturn-closest-approach-earth",
+        "quote": "Unlike most stars, however, its light remains steady rather than noticeably twinkling.",
+        "chunk_ids": {
+          "A": [
+            "37024eeeb4085bba435112e9000da0c404306c874839926a3b18b644ad49fbbb"
+          ],
+          "B": [
+            "b7c811102d6aed2f034eec4fcd691da2cd69d1fc19ed5c3ab1e1b69dd10d358a"
+          ],
+          "C": [
+            "21a3963560b302a78399f5f9e3f9f2d5b0b0fb8b54ec8b9b05d82a4888be3241"
+          ]
+        }
+      }
+    ],
+    "question_type": "paraphrase",
+    "required_facts": [
+      "Saturn’s light is steady compared with the twinkling of most stars."
+    ],
+    "event_group": "how-to-spot-saturn-closest-approach-earth",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_021",
+    "split": "test",
+    "question": "At Saturn’s October opposition, where was Earth relative to Saturn and the sun, and how long was Saturn visible each night?",
+    "answerable": true,
+    "reference_answer": "Earth was almost directly between Saturn and the sun. Saturn was visible throughout the night, rising at sunset and setting around sunrise.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/oct/05/how-to-spot-saturn-closest-approach-earth",
+        "quote": "In this configuration, Earth is passing almost directly between the planet and the sun.",
+        "chunk_ids": {
+          "A": [
+            "37024eeeb4085bba435112e9000da0c404306c874839926a3b18b644ad49fbbb"
+          ],
+          "B": [
+            "b7c811102d6aed2f034eec4fcd691da2cd69d1fc19ed5c3ab1e1b69dd10d358a"
+          ],
+          "C": [
+            "21a3963560b302a78399f5f9e3f9f2d5b0b0fb8b54ec8b9b05d82a4888be3241"
+          ]
+        }
+      },
+      {
+        "evidence_id": "e2",
+        "document_id": "science/2026/oct/05/how-to-spot-saturn-closest-approach-earth",
+        "quote": "the distant world rises as the sun sets, remains visible throughout the night and sets around sunrise.",
+        "chunk_ids": {
+          "A": [
+            "37024eeeb4085bba435112e9000da0c404306c874839926a3b18b644ad49fbbb"
+          ],
+          "B": [
+            "b7c811102d6aed2f034eec4fcd691da2cd69d1fc19ed5c3ab1e1b69dd10d358a"
+          ],
+          "C": [
+            "21a3963560b302a78399f5f9e3f9f2d5b0b0fb8b54ec8b9b05d82a4888be3241"
+          ]
+        }
+      }
+    ],
+    "question_type": "multi_fact",
+    "required_facts": [
+      "Earth was almost directly between Saturn and the sun.",
+      "Saturn was visible from sunset until around sunrise."
+    ],
+    "event_group": "how-to-spot-saturn-closest-approach-earth",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_022",
+    "split": "test",
+    "question": "Which green alga did Peter Hegemann study in the work that led to the 2026 Nobel prize in physiology or medicine?",
+    "answerable": true,
+    "reference_answer": "Chlamydomonas.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/oct/05/nobel-prize-medicine-2026-winner",
+        "quote": "The work had its origins in research by Hegemann, who wanted to explore how a green alga called Chlamydomonas swam towards light.",
+        "chunk_ids": {
+          "A": [
+            "cd3aee149ee9d59976f48e3c81e32a3c8fb871043903e027fbb60443c7528d26"
+          ],
+          "B": [
+            "05e8c1bc939d4ea73ad4deffb0e3b733ac5c611b130627182c75b1d383be7eb9"
+          ],
+          "C": [
+            "a5d4c0b69d17ae7f9304a0ff4c9e14bd080822f790f1ad4c4dfede3534a07eb0"
+          ]
+        }
+      }
+    ],
+    "question_type": "single_fact",
+    "required_facts": [
+      "Hegemann studied Chlamydomonas."
+    ],
+    "event_group": "nobel-prize-medicine-2026-winner",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_023",
+    "split": "test",
+    "question": "What did the light-sensitive switch developed through the 2026 medicine laureates’ research let scientists do in a living brain?",
+    "answerable": true,
+    "reference_answer": "Use light to turn nerve cells on or off.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/oct/05/nobel-prize-medicine-2026-winner",
+        "quote": "In a nutshell the trio’s research led to the development of a light-sensitive switch that can be used to control nerve cells in the living brain, switching them on or off.",
+        "chunk_ids": {
+          "A": [
+            "debe51f5081a982e35a9c72ac047c461c587303a9c2c412da5b86d27ade23f6a"
+          ],
+          "B": [
+            "688102fadbf2e4598d29f490e74f76b86139590b52522fa5146b09b5078275d8"
+          ],
+          "C": [
+            "a65e20ea073b4418345efa9d731df93c12d08f37d4132a6defecd9e2d8cec314"
+          ]
+        }
+      }
+    ],
+    "question_type": "paraphrase",
+    "required_facts": [
+      "The switch allowed researchers to activate or deactivate nerve cells in the living brain."
+    ],
+    "event_group": "nobel-prize-medicine-2026-winner",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  },
+  {
+    "question_id": "test_024",
+    "split": "test",
+    "question": "What was the total prize money for the 2026 Nobel prize in physiology or medicine, and how was it to be divided among the three laureates?",
+    "answerable": true,
+    "reference_answer": "The prize was 12 million Swedish kronor, to be split equally among the three laureates.",
+    "gold_evidence": [
+      {
+        "evidence_id": "e1",
+        "document_id": "science/2026/oct/05/nobel-prize-medicine-2026-winner",
+        "quote": "They will each receive an equal share of a prize of 12m Swedish kronor (about £900,000).",
+        "chunk_ids": {
+          "A": [
+            "debe51f5081a982e35a9c72ac047c461c587303a9c2c412da5b86d27ade23f6a"
+          ],
+          "B": [
+            "688102fadbf2e4598d29f490e74f76b86139590b52522fa5146b09b5078275d8"
+          ],
+          "C": [
+            "a65e20ea073b4418345efa9d731df93c12d08f37d4132a6defecd9e2d8cec314"
+          ]
+        }
+      }
+    ],
+    "question_type": "multi_fact",
+    "required_facts": [
+      "The total was 12 million Swedish kronor.",
+      "Each laureate was to receive an equal share."
+    ],
+    "event_group": "nobel-prize-medicine-2026-winner",
+    "reviewer": "XING Jingyyu",
+    "reviewed": true,
+    "no_answer_reason": ""
+  }
+]

@@ -57,3 +57,18 @@ M3 Embedding 与向量库使用说明见 [`scripts/m3_embedding/README_zh.md`](s
 M3 的实现、接口、索引 manifests 和个人报告已纳入版本控制。完整的 M1/M2 数据与 M3 向量库、缓存通过 [M3 Release](https://github.com/2718221557-gif/CS5481_RAG/releases/tag/v0.3.0-m3) 提供。下载、校验、解压和读取向量的方法见 [M3 交付说明](documents/m3/DELIVERY.md)。
 
 负责 M4 检索的同学请先看 [M3 → M4 对接文档](documents/m3/M4_HANDOFF.md)：含实际数据格式、函数接口、集合配置、查询示例和验证结果。
+
+
+## M4 Retrieval and Evaluation Delivery
+
+M4 now includes Dense, BM25 and RRF hybrid retrieval with source-verifiable citations, A/B/C chunking comparisons, reviewed QA, and real response examples. Start with [M4 delivery and limitations](README_FIRST.md), then open [M4 handoff notebook](M4_HANDOFF.ipynb) from the repository root. Use the isolated M4 environment in [requirements-m4.txt](requirements-m4.txt); do not assume the M3 dependency versions match the tested M4 runtime.
+
+- [Reviewed QA: 3 dev + 24 answerable test questions](data/evaluation/qa_reviewed.json)
+- [Nine-configuration comparison](results/dense_fixed_20261120_075738_836725/lexical_comparison_1a171826/results_table.md)
+- [Final integration verification](documents/m4/final_integration_checks.json)
+- [Real Hybrid/C input example for M5](documents/m4/m5_hybrid_C_example.json)
+- [M4 to M5 contract](documents/m4/contract_handoff_v2.md)
+
+On the 24-question science subset, Hybrid/C achieves Hit@5 of 100% and budgeted evidence recall of 95.8% with a 1024 embedding-tokenizer budget. These are retrieval metrics, not answer correctness. The configuration was selected after observing this evaluation; no independent post-selection result is claimed. Unanswerable-question evaluation and M5 generation/refusal evaluation remain outstanding. Large M3 data and model caches are external dependencies, not included in this commit.
+
+To verify saved artifacts and unit tests without a model download, run `python verify_delivery.py` in the M4 environment. The handoff notebook contains separate cells for real database integration checks and optional experiment reproduction.

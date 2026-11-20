@@ -1,0 +1,24 @@
+{
+  "schema_version": "retrieval_response.v2",
+  "request_id": "64b86e4e8d394dde95da0316e83a59a6",
+  "query": "",
+  "retrieval_query": "",
+  "status": "ERROR",
+  "index": null,
+  "config": {
+    "mode": "dense"
+  },
+  "filters": null,
+  "results": [],
+  "warnings": [],
+  "error": {
+    "code": "INVALID_REQUEST",
+    "message": "Query must be a nonempty string"
+  },
+  "timing_ms": {
+    "encode": 0.0,
+    "search": 0.0,
+    "rerank": 0.0,
+    "total": 0.04530000023805769
+  }
+}

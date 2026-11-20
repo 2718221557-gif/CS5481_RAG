@@ -1,0 +1,47 @@
+[
+  {
+    "mode": "dense",
+    "strategy": "A",
+    "top_k": 5,
+    "question_count": 24,
+    "error_count": 0,
+    "raw_hit": 0.875,
+    "raw_recall": 0.875,
+    "raw_complete": 0.875,
+    "budget_hit": 0.875,
+    "budget_recall": 0.875,
+    "budget_complete": 0.875,
+    "latency_median_ms": 25.166899999931047,
+    "mean_context_tokens": 866.0833333333334
+  },
+  {
+    "mode": "dense",
+    "strategy": "B",
+    "top_k": 5,
+    "question_count": 24,
+    "error_count": 0,
+    "raw_hit": 0.9583333333333334,
+    "raw_recall": 0.9583333333333334,
+    "raw_complete": 0.9583333333333334,
+    "budget_hit": 0.9166666666666666,
+    "budget_recall": 0.9166666666666666,
+    "budget_complete": 0.9166666666666666,
+    "latency_median_ms": 26.258549999965908,
+    "mean_context_tokens": 864.875
+  },
+  {
+    "mode": "dense",
+    "strategy": "C",
+    "top_k": 5,
+    "question_count": 24,
+    "error_count": 0,
+    "raw_hit": 0.9583333333333334,
+    "raw_recall": 0.9583333333333334,
+    "raw_complete": 0.9583333333333334,
+    "budget_hit": 0.875,
+    "budget_recall": 0.875,
+    "budget_complete": 0.875,
+    "latency_median_ms": 25.276299999859475,
+    "mean_context_tokens": 901.2916666666666
+  }
+]

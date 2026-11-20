@@ -1,0 +1,28 @@
+{
+  "schema_version": "embedding_index.manifest.v1",
+  "created_at_utc": "2026-11-17T08:53:36.269035Z",
+  "input": {
+    "path": "data/chunks/chunks_B.jsonl",
+    "sha256": "4ef08cb904ad43c5983b39228288be28a58d8868054e11589cae4b76b43e2243",
+    "chunk_schema_version": "news_chunks.v1",
+    "strategy": "B"
+  },
+  "embedding": {
+    "backend": "sentence-transformers",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "dimension": 384,
+    "normalization": "L2"
+  },
+  "vector_store": {
+    "backend": "ChromaDB",
+    "persist_path": "data/vector_store/chroma",
+    "collection": "chunks_b_4ef08cb904_c6c1836bed",
+    "distance": "cosine"
+  },
+  "embedding_cache": "data/vector_store/embedding_cache.sqlite3",
+  "batch_size": 64,
+  "chunk_count": 15914,
+  "cached_vectors_used": 21,
+  "vectors_created": 15892
+}

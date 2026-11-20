@@ -1,0 +1,154 @@
+{
+  "schema_version": "retrieval_response.v2",
+  "request_id": "7d7f1dd2f2c145a6a7b5271163e691a5",
+  "query": "What happened to Australian tourists in Nepal?",
+  "retrieval_query": "What happened to Australian tourists in Nepal?",
+  "status": "OK",
+  "index": {
+    "strategy": "B",
+    "collection": "chunks_b_4ef08cb904_c6c1836bed",
+    "manifest_sha256": "e60919f16bb510087c3fdcab0454733318086c4b908d97ecdd64845cd0eff526"
+  },
+  "config": {
+    "mode": "dense",
+    "top_k": 5,
+    "candidate_k": 30,
+    "rrf_constant": 60
+  },
+  "filters": null,
+  "results": [
+    {
+      "rank": 1,
+      "chunk_id": "311913283b1e52c3ec35a129bcbfef1abfbde853b3abe83538c991a8da2d76c9",
+      "document_id": "australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods",
+      "chunk_index": 1,
+      "text": "“This is the trekking season in Nepal, it’s a very popular time for people to visit in the adventure tourism industry,” he said. “It’s also a sacred Hindu site and an area of pilgrimage for people of Hindu faith.”\n\nThe minister said widespread damage to roads and telecommunications infrastructure had made it challenging to establish contact with large parts of the affected region.\n\n“It’s only based on the information that we’re receiving from the Nepalese government, obviously a lot more will be released over the coming 24 hours.”\n\nNearly 1,300 people in total are missing, the majority of them tourists, authorities have said, after a catastrophic flash flood hit Nepal and Tibet, roaring down valleys and wiping out entire villages. Nepal police said on Thursday night that 389 people have been confirmed dead, and 466 injured and rescued.\n\nThe people missing are from a range of countries, including the United States, Canada, India and the United Kingdom.\n\nThe missing Australians include one who was travelling with Kathmandu Holiday Tours and Travel.",
+      "text_sha256": "754c18565554a6b1fcb59ccd0ad820206cef7a14cec9224cd75eeb47f7519885",
+      "citation": {
+        "url": "https://www.theguardian.com/australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods",
+        "title": "Australian officials ‘working around the clock’ to check welfare of tourists missing in Nepal",
+        "published_at_utc": "2026-08-27T18:18:50Z",
+        "source_name": "The Guardian",
+        "source_domain": "theguardian.com"
+      },
+      "retrieved_by": [
+        "dense"
+      ],
+      "scores": {
+        "distance": 0.3035327196121216,
+        "similarity": 0.6964672803878784,
+        "bm25": null,
+        "rrf": null,
+        "rerank": null
+      }
+    },
+    {
+      "rank": 2,
+      "chunk_id": "86a81e22bbe562055b1c33929ef78b82377767521a32364e24208b1e02d1a22f",
+      "document_id": "australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods",
+      "chunk_index": 3,
+      "text": "Wong said she would not confirm details of the missing Australians until the government had engaged with their next of kin, but acknowledged many tourists travel to the region for trekking opportunities and spiritual reasons.\n\nNepal’s embassy in Canberra has also requested urgent assistance.\n\n“We are reaching out to the Australian government and hopefully they will provide assistance to us. We are in communication with them,” said the embassy’s second secretary, Saroj Paneru.\n\nPaneru said the government would be seeking financial assistance, but also technical support as it searches for missing people.\n\nHe said the embassy was still trying to verify the number of Australians who were missing in the region affected by flash flooding.\n\n“The tourism industry in Nepal is working to collect information about anyone who was in the affected area,” he said.\n\n“Once we have that data and all the details have been received, we will communicate all of this to the Australian government and the embassy in Kathmandu.”\n\nAustralians in the region have been urged to follow the advice of local authorities.",
+      "text_sha256": "94bc5f33068919acff49b4490cd88901ce8dbbfc6ef67fdd6ae97e82d491cd2c",
+      "citation": {
+        "url": "https://www.theguardian.com/australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods",
+        "title": "Australian officials ‘working around the clock’ to check welfare of tourists missing in Nepal",
+        "published_at_utc": "2026-08-27T18:18:50Z",
+        "source_name": "The Guardian",
+        "source_domain": "theguardian.com"
+      },
+      "retrieved_by": [
+        "dense"
+      ],
+      "scores": {
+        "distance": 0.30654656887054443,
+        "similarity": 0.6934534311294556,
+        "bm25": null,
+        "rrf": null,
+        "rerank": null
+      }
+    },
+    {
+      "rank": 3,
+      "chunk_id": "8d1a90f4181baa59d530a6d883dbd969fe724111a2aba7abd049ab297a6fece6",
+      "document_id": "world/2026/aug/31/nepal-tibet-floods-australians-missing-list-names-what-we-know-so-far-ntwnfb",
+      "chunk_index": 0,
+      "text": "The number of Australians missing in the Nepal-Tibet flash flooding disaster has fallen from 36 to 35, after another person was confirmed safe on Tuesday.\n\nThe Australian citizen, who was in Nepal and uncontactable in the wake of the flash flooding on 26 August, confirmed they were safe and well and did not require consular assistance.\n\nIt comes after seven previously unaccounted for Australians were confirmed safe in recent days, with one found in Nepal, one in Tibet and three outside the crisis-hit area. A Sydney woman, Cara Severino, 25, was also safely located in Nepal more than two days after the floods.\n\nThe names of the Australians confirmed safe have not yet been released.\n\nPilgrims trekking to a holy site in Tibet make up the majority of Australians who have been reported missing after the deadly flash floods and landslides tore through valleys on the Nepal-Tibet border. Most were travelling with Himalayan Glacier Adventures, Kailash Journeys and the Isha Foundation.\n\nRelated: ‘The house got carried 100 metres away’: some Nepal flood victims had minutes of notice. Others had seconds",
+      "text_sha256": "8fd470f3cd8b8b7df0031cf1a7fc14351cef17c25ddc8be6a9c23bda4848f5b3",
+      "citation": {
+        "url": "https://www.theguardian.com/world/2026/aug/31/nepal-tibet-floods-australians-missing-list-names-what-we-know-so-far-ntwnfb",
+        "title": "Australians missing in the Nepal floods: what we know so far",
+        "published_at_utc": "2026-09-08T07:39:08Z",
+        "source_name": "The Guardian",
+        "source_domain": "theguardian.com"
+      },
+      "retrieved_by": [
+        "dense"
+      ],
+      "scores": {
+        "distance": 0.3360669016838074,
+        "similarity": 0.6639330983161926,
+        "bm25": null,
+        "rrf": null,
+        "rerank": null
+      }
+    },
+    {
+      "rank": 4,
+      "chunk_id": "9bc885c64f8e58b096982d52da66a62c1077f7d2234ab629ae90afa234739976",
+      "document_id": "world/2026/aug/28/number-of-australians-missing-in-nepal-increases-to-39-penny-wong-confirms",
+      "chunk_index": 2,
+      "text": "“I’ve heard people were notifying neighbours to leave before the flooding hit but, because there was no rain leading to the flash floods, many of these warnings weren’t taken seriously. What makes this disaster unusual is that it was so sudden, coming without warning.”\n\nInteractive\n\nRijal said local knowledge would be critical in finding and rescuing survivors safely.\n\n“Nepal is a very collective society and locals will have a better idea of how to locate missing people than those without local knowledge.”\n\nSpeaking on ABC radio, Wong said the four additional Australians missing had been travelling separately to the Himalayan Glacier Adventures tour and Kathmandu Holiday Tours and Travel group.\n\nShe said a further increase in the number of Australians missing was an “unfortunate possibility”.\n\n“I know this is an extremely distressing time for those who have loved ones unaccounted for and we are thinking of them,” she said.\n\nRelated: Climate crisis could be destabilising mountain areas like Nepal, experts warn",
+      "text_sha256": "40604ff09c521bb12bc1266ff3f5fca633f177dd9648c3809dd859bafd1bf5e1",
+      "citation": {
+        "url": "https://www.theguardian.com/world/2026/aug/28/number-of-australians-missing-in-nepal-increases-to-39-penny-wong-confirms",
+        "title": "Dozens of Australians missing after ‘catastrophic’ flood as officials urgently work to confirm welfare",
+        "published_at_utc": "2026-08-28T09:09:31Z",
+        "source_name": "The Guardian",
+        "source_domain": "theguardian.com"
+      },
+      "retrieved_by": [
+        "dense"
+      ],
+      "scores": {
+        "distance": 0.3425266742706299,
+        "similarity": 0.6574733257293701,
+        "bm25": null,
+        "rrf": null,
+        "rerank": null
+      }
+    },
+    {
+      "rank": 5,
+      "chunk_id": "bc539165d46fb6403d8766de54aefbf57a1bf215ee8e7866c4306629f0a4e4ea",
+      "document_id": "australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods",
+      "chunk_index": 0,
+      "text": "The Australian government is urgently seeking information on the welfare of at least 35 Australians missing in Nepal, after a catastrophic flash flood swept through the Nepal-Tibet border region.\n\nAssistant minister for foreign affairs, Matt Thistlethwaite, said on Thursday evening that the Department of Foreign Affairs and Trade (Dfat) was “working around the clock” to verify the status of the missing Australians. The figure is based on reports from the Nepali Tourism Board and officials on the ground.\n\nRelated: Flash floods on Nepal-Tibet border leave scores dead and hundreds missing\n\nThistlethwaite confirmed Dfat staff were operating from the post in Kathmandu, and that the government would send a crisis response team to the affected region.\n\n“We’re trying to make contact with those tour operators,” he said, adding that Australian officials were working with Nepali authorities to determine whether independent travellers not attached to a tour group could also be missing.",
+      "text_sha256": "d4f5a99d3e43562c206048f732098bd314dc93026618b60ef1d4e8379c6487a4",
+      "citation": {
+        "url": "https://www.theguardian.com/australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods",
+        "title": "Australian officials ‘working around the clock’ to check welfare of tourists missing in Nepal",
+        "published_at_utc": "2026-08-27T18:18:50Z",
+        "source_name": "The Guardian",
+        "source_domain": "theguardian.com"
+      },
+      "retrieved_by": [
+        "dense"
+      ],
+      "scores": {
+        "distance": 0.34269845485687256,
+        "similarity": 0.6573015451431274,
+        "bm25": null,
+        "rrf": null,
+        "rerank": null
+      }
+    }
+  ],
+  "warnings": [],
+  "error": null,
+  "timing_ms": {
+    "encode": 20.11069999934989,
+    "search": 13.90339999943535,
+    "rerank": 0.0,
+    "total": 41.162700000313635
+  }
+}

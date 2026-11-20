@@ -1,0 +1,11 @@
+{
+  "integration": {
+    "status": "PASS",
+    "checked_modes": 3,
+    "date_checks": false,
+    "schema_sha256": "280ce563006f65b155b0de69f6e0a066b7c1bc40b4fff2ffe03a4c245eb6b32c",
+    "created_at": "2026-11-20T08:43:33.574922+00:00"
+  },
+  "hybrid_C_citation_roundtrip": "PASS",
+  "demo_context_tokens": 1012
+}

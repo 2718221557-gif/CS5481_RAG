@@ -1,0 +1,244 @@
+Science RAG evaluation questions | 1229–1236
+Drafts for human review; not approved evaluation records.
+
+1229. Did you solve it? The fin-tastic fish puzzle
+
+Document ID: science/2026/aug/31/did-you-solve-it-the-fin-tastic-fish-puzzle
+Question type: single_fact
+Question: Who created the fin-tastic fish puzzles for the opening of the 1729 Maths School?
+Reference answer: Maths educator George Watkins.
+Required facts:
+- George Watkins created the puzzles.
+Evidence excerpts:
+- Today’s puzzles were created by maths educator George Watkins to celebrate the opening of the 1729 Maths School
+
+Document ID: science/2026/aug/31/did-you-solve-it-the-fin-tastic-fish-puzzle
+Question type: paraphrase
+Question: Given front and side views of a fish’s swim in the fin-tastic fish puzzle, what were solvers supposed to sketch?
+Reference answer: The view from above of the shortest path consistent with both views.
+Required facts:
+- The sketch had to show the shortest compatible path as seen from above.
+Evidence excerpts:
+- I gave two examples of a front and side view, and asked you to draw the top view of the shortest path that results in those views.
+
+Document ID: science/2026/aug/31/did-you-solve-it-the-fin-tastic-fish-puzzle
+Question type: multi_fact
+Question: In the fin-tastic fish puzzle, how tall was the tank, and what were the dimensions of its base?
+Reference answer: It was two metres tall, with a base one metre across and one metre deep.
+Required facts:
+- Height: two metres.
+- Base: one metre across by one metre deep.
+Evidence excerpts:
+- A fish is swimming in a tank that is two metres high, one metre across and one metre deep.
+
+1230. Forbidden planet: was Pluto’s 2006 demotion a big mistake?
+
+Document ID: science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake
+Question type: single_fact
+Question: Which newly discovered celestial body prompted the International Astronomical Union’s 2006 vote on Pluto’s status?
+Reference answer: Eris.
+Required facts:
+- The discovery of Eris prompted the vote.
+Evidence excerpts:
+- The event that sparked the IAU’s 2006 vote was the discovery of a distant celestial body that would come to be called Eris.
+
+Document ID: science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake
+Question type: paraphrase
+Question: In the planet definition used to reclassify Pluto, what does it mean for a body to have cleared its neighbourhood?
+Reference answer: Its gravity must dominate the region where it orbits.
+Required facts:
+- The criterion is gravitational dominance in the body's orbital region.
+Evidence excerpts:
+- it must have “cleared its neighbourhood” – meaning it must gravitationally dominate the area in which it orbits.
+
+Document ID: science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake
+Question type: multi_fact
+Question: What classification did Pluto receive in August 2006, and how did that decision change the solar system’s planet count?
+Reference answer: Pluto became a dwarf planet, and the count fell from nine to eight.
+Required facts:
+- Pluto was classified as a dwarf planet.
+- The planet count decreased from nine to eight.
+Evidence excerpts:
+- After a vote by the International Astronomical Union (IAU) in August 2006, Pluto was relegated from major planet to dwarf planet status.
+- Our solar system dropped from nine planets to eight.
+
+1231. ‘Who knows what they’re taking?’: people risk the gray market for the newest weight-loss drug
+
+Document ID: science/2026/aug/31/retatrutide-weight-loss-drug-gray-market
+Question type: single_fact
+Question: Which pharmaceutical company manufactures the retatrutide being studied in clinical trials?
+Reference answer: Eli Lilly.
+Required facts:
+- The manufacturer is Eli Lilly.
+Evidence excerpts:
+- retatrutide, which is manufactured by the pharmaceutical company Eli Lilly and is being studied in clinical trials.
+
+Document ID: science/2026/aug/31/retatrutide-weight-loss-drug-gray-market
+Question type: paraphrase
+Question: What did Dr David Shafer advise patients to tell their healthcare provider about retatrutide obtained without a prescription?
+Reference answer: Tell the provider that they are taking retatrutide.
+Required facts:
+- Shafer advised disclosing use even when the drug was obtained without a prescription.
+Evidence excerpts:
+- Shafer, the plastic surgeon, said that even if people are not obtaining retatrutide from a prescription, they should disclose their use of it to their provider.
+
+Document ID: science/2026/aug/31/retatrutide-weight-loss-drug-gray-market
+Question type: multi_fact
+Question: What two things did Dr Caroline Messer say buyers cannot know about the contents of gray-market retatrutide?
+Reference answer: They do not know how much retatrutide the product contains or how pure it is.
+Required facts:
+- The amount of the drug is unknown.
+- Its purity is unknown.
+Evidence excerpts:
+- Messer argues that obtaining the drug through the gray market is potentially dangerous because patients do not know how much of the drug the product contains or its purity.
+
+1232. Starwatch: Sagitta’s arrow shape makes it easy to see against a dark sky
+
+Document ID: science/2026/aug/31/starwatch-sagittas-arrow-shape-makes-it-easy-to-see-against-a-dark-sky
+Question type: single_fact
+Question: Between which two stars can an observer look for the constellation Sagitta?
+Reference answer: Vega and Altair.
+Required facts:
+- Sagitta lies roughly partway along the line from Vega to Altair.
+Evidence excerpts:
+- Sagitta can be found about partway along the imaginary line connecting Vega and Altair
+
+Document ID: science/2026/aug/31/starwatch-sagittas-arrow-shape-makes-it-easy-to-see-against-a-dark-sky
+Question type: paraphrase
+Question: Why can a stargazer pick out Sagitta under a dark sky even though its stars are faint?
+Reference answer: Its stars form a recognisable arrow.
+Required facts:
+- Sagitta’s arrow shape makes it easy to identify.
+Evidence excerpts:
+- Although it consists of just a handful of faint stars, Sagitta’s distinctive shape (it really does look like an arrow) makes it easy to identify against a dark sky.
+
+Document ID: science/2026/aug/31/starwatch-sagittas-arrow-shape-makes-it-easy-to-see-against-a-dark-sky
+Question type: multi_fact
+Question: Which two arrows from Greek mythology are suggested as possible identities for Sagitta?
+Reference answer: It could be the arrow Hercules fired at the eagle tormenting Prometheus, or one of Cupid’s arrows.
+Required facts:
+- One possibility is Hercules’ arrow used to kill the eagle tormenting Prometheus.
+- Another possibility is one of Cupid’s arrows.
+Evidence excerpts:
+- It could be the one fired by Hercules to kill the eagle tormenting Prometheus, or it could be one of Cupid’s famous arrows.
+
+1233. ‘Hugely exciting’ finds on tiny Scottish island shed light on spread of Christianity
+
+Document ID: science/2026/oct/01/lismore-archaeological-finds-scottish-island-monastery-spread-of-christianity
+Question type: single_fact
+Question: Which archaeologist led the volunteers excavating the medieval cathedral site on Lismore?
+Reference answer: Dr Clare Ellis of Argyll Archaeology.
+Required facts:
+- Dr Clare Ellis led the excavation.
+Evidence excerpts:
+- they commissioned a professional archaeologist, Dr Clare Ellis of Argyll Archaeology, to lead a group of islanders and other volunteers in an excavation on the site of a much later medieval cathedral.
+
+Document ID: science/2026/oct/01/lismore-archaeological-finds-scottish-island-monastery-spread-of-christianity
+Question type: paraphrase
+Question: How did the discoveries on Lismore change experts’ understanding of the monastery’s place in the wider world?
+Reference answer: Experts saw it as an internationally important monastery rather than a minor local church.
+Required facts:
+- The finds indicated that the monastery was a high-ranking site of international importance.
+Evidence excerpts:
+- The finds have shown that rather than being a small island church in an overlooked backwater, the monastery of Lios Mór, founded by Saint Mo Luóc or Moluag, was a high-ranking site of international importance, experts say.
+
+Document ID: science/2026/oct/01/lismore-archaeological-finds-scottish-island-monastery-spread-of-christianity
+Question type: multi_fact
+Question: What craft did post-excavation analysis reveal on Lismore, and in which century was it practised?
+Reference answer: Jewellery making in the seventh century.
+Required facts:
+- The craft was jewellery making.
+- The craft was practised in the seventh century.
+Evidence excerpts:
+- they were making jewellery on our little island in the seventh century.
+
+1234. Do humans really have a ‘lizard brain’ lurking beneath our rational minds?
+
+Document ID: science/2026/oct/04/lizard-brain-rational-mind-neuroscience
+Question type: single_fact
+Question: In what year did Paul D MacLean introduce the triune brain model?
+Reference answer: 1959.
+Required facts:
+- MacLean set out the model in 1959.
+Evidence excerpts:
+- In 1959 Paul D MacLean set out a new way of thinking about the evolution and function of the brain, which he christened the “triune” – three-in-one – model.
+
+Document ID: science/2026/oct/04/lizard-brain-rational-mind-neuroscience
+Question type: paraphrase
+Question: In Lisa Feldman Barrett’s account, what does the brain do to keep us alive instead of pitting instinct against reason?
+Reference answer: It works as an integrated system that anticipates and budgets the body’s energy needs.
+Required facts:
+- Barrett describes an integrated brain that predicts and budgets energy requirements.
+Evidence excerpts:
+- In her view, rather than operating as a battleground between ancient instinct, raw emotion and sophisticated logic, the brain is a dynamic, integrated system, whose aim is to keep us alive by predicting and budgeting our energy requirements.
+
+Document ID: science/2026/oct/04/lizard-brain-rational-mind-neuroscience
+Question type: multi_fact
+Question: What findings about reptiles and mammals undermine the anatomical divisions in MacLean’s triune brain model?
+Reference answer: Many reptiles have the supposedly mammalian limbic system, and all mammals show features once thought unique to so-called higher mammals.
+Required facts:
+- Many reptiles possess the limbic system.
+- All mammals exhibit some features labelled neomammalian and previously thought exclusive to higher mammals.
+Evidence excerpts:
+- many reptiles do actually possess the “mammalian” limbic system, while all mammals exhibit “neomammalian” features previously thought to be unique to “higher” ones like us.
+
+1235. Starwatch: how to spot Saturn as it makes it closest approach to Earth this year
+
+Document ID: science/2026/oct/05/how-to-spot-saturn-closest-approach-earth
+Question type: single_fact
+Question: Which star pattern lay above Saturn in the 5 October view from London?
+Reference answer: The Great Square of Pegasus.
+Required facts:
+- Saturn lay beneath the Great Square of Pegasus.
+Evidence excerpts:
+- It lies beneath the Great Square of Pegasus, which provides a distinctive signpost to the planet.
+
+Document ID: science/2026/oct/05/how-to-spot-saturn-closest-approach-earth
+Question type: paraphrase
+Question: How could an observer distinguish Saturn’s light from that of most stars without a telescope?
+Reference answer: Saturn shines steadily rather than noticeably twinkling.
+Required facts:
+- Saturn’s light is steady compared with the twinkling of most stars.
+Evidence excerpts:
+- Unlike most stars, however, its light remains steady rather than noticeably twinkling.
+
+Document ID: science/2026/oct/05/how-to-spot-saturn-closest-approach-earth
+Question type: multi_fact
+Question: At Saturn’s October opposition, where was Earth relative to Saturn and the sun, and how long was Saturn visible each night?
+Reference answer: Earth was almost directly between Saturn and the sun. Saturn was visible throughout the night, rising at sunset and setting around sunrise.
+Required facts:
+- Earth was almost directly between Saturn and the sun.
+- Saturn was visible from sunset until around sunrise.
+Evidence excerpts:
+- In this configuration, Earth is passing almost directly between the planet and the sun.
+- the distant world rises as the sun sets, remains visible throughout the night and sets around sunrise.
+
+1236. Nobel prize in medicine 2026 awarded for research into mysteries of brain
+
+Document ID: science/2026/oct/05/nobel-prize-medicine-2026-winner
+Question type: single_fact
+Question: Which green alga did Peter Hegemann study in the work that led to the 2026 Nobel prize in physiology or medicine?
+Reference answer: Chlamydomonas.
+Required facts:
+- Hegemann studied Chlamydomonas.
+Evidence excerpts:
+- The work had its origins in research by Hegemann, who wanted to explore how a green alga called Chlamydomonas swam towards light.
+
+Document ID: science/2026/oct/05/nobel-prize-medicine-2026-winner
+Question type: paraphrase
+Question: What did the light-sensitive switch developed through the 2026 medicine laureates’ research let scientists do in a living brain?
+Reference answer: Use light to turn nerve cells on or off.
+Required facts:
+- The switch allowed researchers to activate or deactivate nerve cells in the living brain.
+Evidence excerpts:
+- In a nutshell the trio’s research led to the development of a light-sensitive switch that can be used to control nerve cells in the living brain, switching them on or off.
+
+Document ID: science/2026/oct/05/nobel-prize-medicine-2026-winner
+Question type: multi_fact
+Question: What was the total prize money for the 2026 Nobel prize in physiology or medicine, and how was it to be divided among the three laureates?
+Reference answer: The prize was 12 million Swedish kronor, to be split equally among the three laureates.
+Required facts:
+- The total was 12 million Swedish kronor.
+- Each laureate was to receive an equal share.
+Evidence excerpts:
+- They will each receive an equal share of a prize of 12m Swedish kronor (about £900,000).
